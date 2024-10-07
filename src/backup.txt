@@ -1,0 +1,67 @@
+
+import './App.css';
+import { Card } from './components/Card';
+import { Footer } from './components/Footer';
+import { Header } from './components/Header';
+import { Layout } from './components/Layout';
+import { Label } from './Label';
+import {login} from './services/login'
+
+import { 
+  ChakraBaseProvider, 
+  ChakraProvider,
+  Center,
+  Box,
+  Button
+} from '@chakra-ui/react';
+
+
+function App() {
+  return (
+    <>
+      <ChakraProvider>
+        <Box minHeight='100vh' backgroundColor='#9413dc' padding='25px'>
+
+            <Box backgroundColor='#FFFFFF' borderRadius='25px' padding='15px'>
+
+              <Center>
+                <h1>Faça seu login</h1>
+              </Center>
+
+              <Label 
+                name='Email'
+                htmlFor='emailInput'
+                placeholder='email'
+                id='emailInput'
+                type='email'/>
+              
+              <Label 
+              name='Senha' 
+              htmlFor='passwordInput' 
+              placeholder='senha'
+              id='passwordInput'
+              type='password'/>
+              
+              <Center>
+
+                <Button
+                  onClick={login}
+                  colorScheme='teal' 
+                  size='sm' width='70%' 
+                  height='50px'
+                  marginTop='20px'>Entrar</Button>
+
+              </Center>
+
+            </Box>
+
+        </Box>    
+      
+      </ChakraProvider>
+    </>
+  );
+}
+
+export default App;
+
+
