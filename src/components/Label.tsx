@@ -1,6 +1,6 @@
 import {Input  } from "@chakra-ui/react"
 
-export const Label = ({name, htmlFor,placeholder, id, type, onChange}:any) => {
+export const Label = ({name, htmlFor,placeholder, type, onChange}:any) => {
     return(
         <div>
             <label htmlFor={htmlFor}>{name}</label>

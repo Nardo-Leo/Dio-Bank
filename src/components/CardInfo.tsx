@@ -1,5 +1,4 @@
 import { Box, Text } from "@chakra-ui/react"
-import { text } from "stream/consumers"
 
 interface ICardInfo  {
     mainContent: string,

@@ -3,12 +3,12 @@ import { Butao } from "../components/Butao"
 import { Form } from "../components/Form"
 import { Label } from "../components/Label"
 import { login } from "../services/login"
-import { MouseEventHandler, useContext, useState } from "react"
+import {useContext, useState } from "react"
 import { useNavigate } from "react-router-dom"
 import { AppContext } from "../components/AppContext"
 import { changeLocalStorage, getAllLocalStorage } from "../services/storage"
 import { Acess } from "../components/Acess"
-import { log } from "console"
+
 
 
 

@@ -1,15 +1,11 @@
-import { ChakraProvider,Box, Center, Input } from "@chakra-ui/react"
-import { Butao } from "./Butao"
-import { login } from "../services/login"
-import {useState, useEffect} from 'react'
-import { Label } from "./Label"
-import {api} from '../api'
+import { Box, Center} from "@chakra-ui/react"
 
 
+/*
 interface IForm{
     title:string
 }
-
+*/
 
 
 export const Form = ( {children}:any) => {

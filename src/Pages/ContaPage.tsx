@@ -1,10 +1,10 @@
-import { Box, Center, SimpleGrid, Spinner } from "@chakra-ui/react"
+import {  Center, SimpleGrid, Spinner } from "@chakra-ui/react"
 import { CardInfo } from "../components/CardInfo"
 import { useContext, useState, useEffect } from "react"
 import { useParams, useNavigate } from "react-router-dom"
 import { api } from "../api"
 import { AppContext } from "../components/AppContext"
-import { getAllLocalStorage } from "../services/storage"
+
 
 
 interface UserData{

@@ -1,7 +1,5 @@
 import { api } from "../api"
-import { useContext } from "react"
-import { AppContext, } from "../components/AppContext"
-import { useNavigate } from "react-router-dom"
+
 
 export const login = async (email: string, password: string): Promise<boolean> => {
 

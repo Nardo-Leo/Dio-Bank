@@ -3,8 +3,8 @@ import { Box, Button, Center, Flex, IconButton, Menu, MenuButton, MenuItem, Menu
 import { useContext } from "react"
 import { AppContext } from "./AppContext"
 import { Link, useNavigate } from "react-router-dom"
-import { changeLocalStorage, getAllLocalStorage } from "../services/storage"
-import { ChevronDownIcon, HamburgerIcon } from "@chakra-ui/icons"
+import { changeLocalStorage } from "../services/storage"
+import {  HamburgerIcon } from "@chakra-ui/icons"
 
 export const Header = () => {
 

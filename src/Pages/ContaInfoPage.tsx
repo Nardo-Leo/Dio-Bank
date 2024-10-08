@@ -1,9 +1,9 @@
-import { Box, Button, Center, Flex, Spacer, Spinner, Text } from "@chakra-ui/react"
-import { Link, useNavigate } from "react-router-dom"
+import { Box, Center, Spinner, Text } from "@chakra-ui/react"
+import {  useNavigate } from "react-router-dom"
 import { getAllLocalStorage } from "../services/storage"
 import { api } from "../api"
 import { useEffect, useState } from "react"
-import { CardInfo } from "../components/CardInfo"
+
 
 
 
