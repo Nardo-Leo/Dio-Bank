@@ -1,5 +1,10 @@
 {
+
+ 
+
   "compilerOptions": {
+    "noUnusedLocals": false,
+    "noUnusedParameters": false,
     "target": "es5",
     "lib": [
       "dom",
