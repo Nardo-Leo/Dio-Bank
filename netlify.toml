@@ -1,9 +1,7 @@
 [build]
- base: /opt/build/repo
- command: npm run build
- commandOrigin: config
- publish: /opt/build/repo/build
- publishOrigin: config
+  base = "/opt/build/repo"
+  command = "npm run build"
+  publish = "/opt/build/repo/build"
 
 [dev]
   command = "npm start" # Comando para iniciar o servidor de desenvolvimento local
