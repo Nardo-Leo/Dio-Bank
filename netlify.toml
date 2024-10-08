@@ -1,7 +1,9 @@
-[build]
-  base = "."
-  publish = "./build/" # Este é o diretório padrão onde o React cria os arquivos de produção
-  command = "npm run build" # Este comando deve construir seu projeto React
+build:
+ base: /opt/build/repo
+ command: npm run build
+ commandOrigin: config
+ publish: /opt/build/repo/build
+ publishOrigin: config
 
-[dev]
+dev
   command = "npm start" # Comando para iniciar o servidor de desenvolvimento local
